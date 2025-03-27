@@ -28,21 +28,23 @@ const Index = () => {
               <p className="text-mk-text-light">Tailored solutions for businesses of all sizes</p>
             </Link>
             
-            <div 
+            <Link 
+              to="/solutions/academic" 
               className="neumorphic-card animate-fade-in text-center"
               style={{ animationDelay: '400ms' }}
             >
               <h3 className="text-xl font-bold mb-3 text-white">Academic Solutions</h3>
               <p className="text-mk-text-light">Empowering educational institutions</p>
-            </div>
+            </Link>
             
-            <div 
+            <Link 
+              to="/solutions/individual" 
               className="neumorphic-card animate-fade-in text-center"
               style={{ animationDelay: '500ms' }}
             >
               <h3 className="text-xl font-bold mb-3 text-white">Individual Solutions</h3>
               <p className="text-mk-text-light">Personal growth and development tools</p>
-            </div>
+            </Link>
           </div>
           
           <div className="mt-12 animate-fade-in" style={{ animationDelay: '600ms' }}>
